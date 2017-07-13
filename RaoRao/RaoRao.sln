@@ -7,13 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{79894D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaoRao.Common.XlsIO", "RaoRao.Common.XlsIO\RaoRao.Common.XlsIO.csproj", "{CAD8FFB8-EB86-4B1E-955E-586A4EE2EB6F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9550B02B-F69D-4975-8EC6-BB21534AD6AF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plug", "plug", "{1E1B24F4-47EA-49D1-B98F-9CBF5CB3A97D}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\代码库\lib\NPOI 开发包(excele导入导出)\NPIO读写Excel\NPOI.dll = ..\..\代码库\lib\NPOI 开发包(excele导入导出)\NPIO读写Excel\NPOI.dll
-		..\..\代码库\lib\NPOI 开发包(excele导入导出)\NPIO读写Excel\NPOI.XML = ..\..\代码库\lib\NPOI 开发包(excele导入导出)\NPIO读写Excel\NPOI.XML
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{454AFBFD-C104-4655-817C-11ECCDFC5621}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
@@ -29,12 +23,15 @@ Global
 		{CAD8FFB8-EB86-4B1E-955E-586A4EE2EB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD8FFB8-EB86-4B1E-955E-586A4EE2EB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD8FFB8-EB86-4B1E-955E-586A4EE2EB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454AFBFD-C104-4655-817C-11ECCDFC5621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454AFBFD-C104-4655-817C-11ECCDFC5621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454AFBFD-C104-4655-817C-11ECCDFC5621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454AFBFD-C104-4655-817C-11ECCDFC5621}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CAD8FFB8-EB86-4B1E-955E-586A4EE2EB6F} = {79894DD1-472E-4B75-8609-0B936262B1F7}
-		{1E1B24F4-47EA-49D1-B98F-9CBF5CB3A97D} = {9550B02B-F69D-4975-8EC6-BB21534AD6AF}
 	EndGlobalSection
 EndGlobal
